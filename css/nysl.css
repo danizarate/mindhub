@@ -1,0 +1,172 @@
+*{
+    font-family: cursive;
+    
+}
+
+.contenedor_flex1{
+    display: flex;
+    flex-direction: column;
+    flex-flow:  column;
+    overflow: visible;
+    
+}
+
+
+
+.cabecera{
+    height: 550px;
+    background-image: url(../images/design1_image1.jpg);
+    background-size: cover;
+    /*background-position-y: 20%;*/
+
+}
+
+.cabecera h1{
+    color: white;
+    font-size: 3.5em;
+    padding-left: 15px;
+    padding-top: -5px;
+
+}
+
+.cabecera2{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 1.3em;
+    
+
+}
+
+.logo{
+    resize: both;
+    position: absolute;
+    
+    margin-top: -170px;
+    margin-left: 20%;
+    
+    width: 100%;
+    height: auto;
+
+    max-width: 250px;
+    max-height: 250px;
+    min-width: 150px;
+    min-height: 150px;
+   
+}
+
+.logo ::-webkit-resizer{
+    border: solid 3px white;
+    min-width: min-content;
+}
+
+
+.contenedor_izquierdo{
+    display: flex;
+    float: left;
+    width: 20%;
+   
+        
+}
+
+.contenedor_izquierdo li{
+    list-style: none;
+    padding-top: 5%;
+    padding-right: 15%;
+  
+}
+
+.contenedor_central{
+    float: left;
+    width: 60%;
+    padding-top: 5%;
+   
+}
+
+.contenedor_central ul{
+    list-style-type: square;
+}
+
+.contenedor_central dt{
+    list-style-type: square;
+}
+
+.contenedor_central h1, h2{
+    text-align: center;
+}
+
+
+
+.contenedor_central td{
+    border: none;
+ }
+
+
+.contenedor_central1{
+    float: left;
+    width: 60%;
+    padding-top: 5%;
+    text-align: left;
+}
+
+.contenedor_central1 h2 p{
+    text-align: left;
+}
+
+.contenedor_central2{
+    float: left;
+    width: 60%;
+    height: 800px;
+    padding-top: 5%;
+}
+
+.contenedor_central2 p{
+    text-align: left;
+}
+
+.contenedor_central3{
+    float: left;
+    text-align: left;
+    
+}
+
+.contenedor_central2 table{
+    border-style: solid;
+    border-collapse: collapse;
+    border: solid 2px black;
+    
+}
+
+.contenedor_central2 th, td, tr{
+    border: solid 2px black;
+    padding: 10px 15px;
+ }
+
+.margen_tablas{
+    margin: top left;
+    width: fit-content;
+    text-align: justify;
+}
+
+.mapas{
+    width: 300px;
+    height: 300px;
+    margin-left: 380px;
+}
+
+.btn_submit{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    margin-bottom: 10%;
+}
+
+.Tabla_Data{
+    width: auto;
+    margin-top: 100px;
+    margin-left: 40%;
+}
+
+.form1{
+    margin: 10px 10px;
+}

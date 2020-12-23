@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="../Tarea4/css/nysl.css">
+        
+        <header>
+            <title>Register</title>
+            <div class="contenedor_flex1"> <!-- La clase CONTENEDOR_FLEX1 permite trabajar a todo el encabezado como un flex-->
+
+                <div class="cabecera"> <!--La clase cabecera permite llamar a la IMAGEN1 y establecerla como imagen de fondo-->
+                    <h1>Northside Youth Soccer League</h1>
+                </div>
+
+                <div class="cabecera2"> <!--Se aplica un margen desde la izquierda de 180 pixeles-->
+                    <h1>Register</h1> <!-- Se amplifica 3,5 veces el tamaño de la fuente usando el parametro EM para agrandar el nombre del equipo-->
+                    <img src="../Tarea2/images/nysl_logo.png" alt="logo" class="logo" width="260" height="260" align="right">
+                </div>
+              
+            </div>   
+
+                
+
+            
+
+        </header>
+    </head>
+
+    <body>
+
+        <div class="contenedor_izquierdo">
+
+            <ul> <!--Se amplifica 1,5 veces el tamaño original de la fuente para toda la barra de navegacion-->
+                <li><h3><a href="index.html">Home</a></h3></li> 
+                <li><h3><a href="about.html">About NYSL</a></h3></li>
+                <li><h3><a href="contact.html">Contact</a></h3> </h3></li>
+                <li><h3><a href="matches.html">Matches</a></h3> </h3></li>
+                <li><h3><a href="policies.html">Policies and Rules</a></h3> </h3></li>
+                <li><h3><a href="Register.html">Register</a></h3> </h3></li>
+            </ul>
+                
+                
+        </div>
+
+         <!-- El formulario actuará como contenedor principal-->
+           <form action="respuesta.html" target="_blank" class="contenedor_central">
+                <div class="form1">
+                    <h1>Registration Form</h1>
+                    Player's First Name: &nbsp;<input type="text" name="FName" class="textos">&nbsp;&nbsp;&nbsp;&nbsp;Last Name:&nbsp;<input type="text" name="LName" class="textos"><br>
+                    Street Address:&nbsp;<input type="text" name="Adrress"><br>
+                    City:&nbsp;<input type="text" name="City" class="textos">&nbsp;Zip Code:&nbsp;<input type="text" name="ZIPCode" class="textos"><br>
+                    Birth Date(mm/dd/yyyy):&nbsp;<input type="date" name="Bdate" class="textos">&nbsp;Gender:&nbsp; Female<input type="radio" name="rbtn1" value="True" />&nbsp; Male<input type="radio" name="rbtn1" value="True"/><br>
+                </div>
+                <br>
+                Grade: <input type="checkbox" name="check1" value="True">Pre-School&nbsp;&nbsp;<input type="checkbox" name="check1" value="True">1st&nbsp;<input type="checkbox" name="check1" value="True">2nd&nbsp;<input type="checkbox" name="check1" value="True">3rd&nbsp;<input type="checkbox" name="check1" value="True">4th&nbsp;<input type="checkbox" name="check1" value="True">5th
+                <br><br>
+                <h3>Which elementary school do you live near?</h3>
+                <h3>Closest School:</h3>
+                <div class="margen_tablas">
+                    <table>
+                        <tr>
+                            <td><input type="checkbox" name="Closest School" value="AJ Katzenmaier">AJ Katzenmaier</td>
+                            <td><input type="checkbox" name="Closest School" value="Marjorie P Hart">Marjorie P Hart</td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="Closest School" value="Greenbay">Greenbay</td>
+                            <td><input type="checkbox" name="Closest School" value="North Elementary">North Elementary</td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="Closest School" value="Howard A Yeager">Howard A Yeager</td>
+                            <td><input type="checkbox" name="Closest School" value="South Elementary">South Elementary</td>
+                        </tr>
+                    </table>
+                </div>
+                
+                <h3>What position(s) do you normally play? (check all that apply)</h3>
+
+                <div class="margen_tablas">
+                    <table>
+                        <tr>
+                            <td><input type="checkbox" name="Position" value="Forward">Forward</td>
+                            <td><input type="checkbox" name="Position" value="Midfield">Midfield</td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="Position" value="Defense">Defense</td>
+                            <td><input type="checkbox" name="Position" value="Goalkeeper">Goalkeeper</td>
+                        </tr>
+                    </table>
+                </div>
+                
+                <h3>Uniform Size:</h3>
+
+                <div class="margen_tablas">
+                    <table>
+                        <tr>
+                            <td><input type="checkbox" name="Uniform Size" value="Youth Small">Youth Small</td>
+                            <td><input type="checkbox" name="Uniform Size" value="Medium">Medium</td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="Uniform Size" value="Youth Medium">Youth Medium</td>
+                            <td><input type="checkbox" name="Uniform Size" value="Large">Large</td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="Uniform Size" value="Youth Large">Youth Large</td>
+                            <td><input type="checkbox" name="Uniform Size" value="Extra-Large">Extra-Large</td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="Uniform Size" value="Small">Small</td>
+                        </tr>
+                    </table>
+                </div>
+                
+                <div class="margen_tablas">
+                    <h3>Permission to Play</h3>
+                    <p>
+                        I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Northside Youth Soccer League (NYSL). 
+                        In recognizing the possibility of physical injury associated with soccer and in consideration for the “League” accepting the registrant for its soccer programs 
+                        and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their employees and associated personnel and volunteers,including the facilities used 
+                        for practices and games, against any claim by or on behalf of the registrant as a result of the registrant’s participation in the programand/orbeing transported to 
+                        or from NYSL sponsored activities,which transportation
+                    </p>
+                    <p>
+                        By signing below, I herebyagree andauthorizethe above.In addition, by signing below, Ialso acknowledge that I have read the cancellation policy and agree to its terms.
+                    </p>
+                    <div>
+                        <label for="parent_sign">Parent/GuardianSignature:</label>
+                        <input type="text" name="parent_sign" value="">
+                        <label for="date_sign">Parent/GuardianSignature:</label>
+                        <input type="date" name="date_sign" value="">
+                    </div>
+                    <div class="btn_submit">
+                        <input type="submit" name="send_data" value="Accept and send data">
+                    </div>
+                </div>
+                
+           </form>
+        <!--</div>-->
+            
+
+
+       
+
+    </body>
+
+
+
+</hmtl>
