@@ -15,7 +15,7 @@
 
 .cabecera{
     height: 550px;
-    background-image: url("images/design1_image1.jpg");
+    background-image: url(images/design1_image1.jpg);
     background-size: cover;
     /*background-position-y: 20%;*/
 
